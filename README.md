@@ -1,7 +1,6 @@
-# CineTrack: Movie Status and Ranking System
+# CineTrack
 
-## Description
-
+An Azure Databricks pipeline for organizing movie ratings, vote counts, and popularity data for ranking and reporting. Terraform provisions the infrastructure. The pipeline uses a medallion architecture and a star schema for analytics.
 This project is designed to efficiently store and manage the status of movies, including ratings, votes, and popularity. The solution leverages a robust tech stack, integrating **Databricks** for ETL pipeline development, **Terraform** for infrastructure provisioning on the **Azure** cloud platform.
 ## Project Highlights
 
@@ -25,7 +24,7 @@ This project is designed to efficiently store and manage the status of movies, i
 
 ### Requirements
 
-- [Azure account](https://azure.microsoft.com/en-us/free/search/?ef_id=_k_Cj0KCQiAmNeqBhD4ARIsADsYfTfCVwwbCl8gclCJU6wI8QcFbJkw_wNu30TydWg2mhETRF7ycss2a68aAj-FEALw_wcB_k_&OCID=AIDcmmftanc7uz_SEM__k_Cj0KCQiAmNeqBhD4ARIsADsYfTfCVwwbCl8gclCJU6wI8QcFbJkw_wNu30TydWg2mhETRF7ycss2a68aAj-FEALw_wcB_k_&gad_source=1&gclid=Cj0KCQiAmNeqBhD4ARIsADsYfTfCVwwbCl8gclCJU6wI8QcFbJkw_wNu30TydWg2mhETRF7ycss2a68aAj-FEALw_wcB) to access and utilize Azure services.
+- [Azure account](https://azure.microsoft.com/en-us/free/) to access and utilize Azure services.
 - [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) installed on your local machine to define and manage infrastructure as code.
 - [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) to authenticate and authorize Terraform to interact with Azure on your behalf.
 
